@@ -5,7 +5,7 @@ window.onload = ()=> {
 		const chars = document.getElementById('input').value.split('').filter(s=>s!=' ');
 		let combos = [];
 		for(let i=0; i<10; i++) {
-			combos.push(shuffle([...chars]));
+			combos.push(shuffle([...chars]).join(''));
 		}
 		document.getElementById('outputs').innerHTML = combos.join('<br>');
 	};
