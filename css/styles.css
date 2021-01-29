@@ -20,3 +20,29 @@ h1 {
 p {
 	line-height: 2rem;
 }
+
+input, button {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: #f0f0f0;
+	border: 2px solid #999;
+	color: #333;
+	font-weight: 500;
+}
+input:focus, button:focus {
+	outline: none;
+	border-color: #333;
+}
+
+input {
+
+}
+button {
+	border-radius: 0.25rem;
+	box-shadow: 4px 4px 0px #333;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #999;
+	color: #fff;	
+}
