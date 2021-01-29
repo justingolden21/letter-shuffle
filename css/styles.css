@@ -28,6 +28,7 @@ input, button {
 	border: 2px solid #999;
 	color: #333;
 	font-weight: 500;
+	font-size: medium;
 }
 input:focus, button:focus {
 	outline: none;
@@ -35,14 +36,11 @@ input:focus, button:focus {
 }
 
 input {
-
-}
-button {
-	border-radius: 0.25rem;
-	box-shadow: 4px 4px 0px #333;
+	box-shadow: 4px 4px 0px #ccc;
 }
 button:hover {
 	cursor: pointer;
-	background-color: #999;
-	color: #fff;	
+	background-color: #333;
+	border-color: #333;
+	color: #fff;
 }
